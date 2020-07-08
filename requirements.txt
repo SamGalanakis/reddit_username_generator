@@ -31,7 +31,7 @@ six==1.13.0
 tensorboard==1.15.0
 tensorflow==1.15.0
 tensorflow-estimator==1.15.1
-tensorflow-gpu==1.14.0
+tensorflow-gpu==1.15.2
 termcolor==1.1.0
 update-checker==0.16
 urllib3==1.25.7
