@@ -43,6 +43,8 @@ def sample(preds, temperature=1.0):
     preds = exp_preds / np.sum(exp_preds)
     probas = np.random.multinomial(1, preds, 1)
     return np.argmax(probas)
+
+
 def make_sammples(epoch,model):
     print()
     print(f'----- Generating text after Epoch:{epoch}')
